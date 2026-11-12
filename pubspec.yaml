@@ -1,0 +1,25 @@
+name: uniride_verify
+description: Student shuttle access verification for drivers and administrators.
+publish_to: none
+version: 1.0.0+1
+environment:
+  sdk: ">=3.4.0 <4.0.0"
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.2.3
+  mobile_scanner: ^5.2.3
+  qr_flutter: ^4.1.0
+  image_picker: ^1.1.2
+  pdf: ^3.11.1
+  printing: ^5.13.2
+  share_plus: ^10.1.4
+  geolocator: ^13.0.2
+dev_dependencies:
+  flutter_lints: ^4.0.0
+  flutter_test:
+    sdk: flutter
+flutter:
+  uses-material-design: true
+  assets:
+    - image/image.jpg
